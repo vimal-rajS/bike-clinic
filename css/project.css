@@ -1,0 +1,1434 @@
+@font-face {
+  src: url("../font/mrsmon  stercond.ttf");
+  font-family: mrsmonstercond;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  background: url("../images/backkk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav,
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 60px;
+  width: 70px;
+}
+
+.icon > img {
+  height: 100%;
+  width: 100%;
+}
+
+.heading > h1 {
+  font-family: mrsmonstercond;
+  color: rgb(10, 8, 8);
+  padding: 10px 20px 2px 10px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  letter-spacing: 0.2rem;
+}
+.nav_item {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: rgb(126, 116, 116);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2;
+}
+.btn > button {
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  color: rgb(0, 0, 0);
+  width: 90px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btn > button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+
+  border: 2px solid #000000;
+}
+.bike_top {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 100vh;
+  width: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+.bike_top > p {
+  font-size: 1.2rem;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #a2ff0d;
+}
+.bike_top > h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: #ffffff 0px 0px 87px;
+}
+.click_btn > button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border: #fff solid 2px;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.click_btn > button:hover {
+  background-color: #fff;
+  color: #83c519;
+  cursor: pointer;
+}
+
+.content > h1 {
+  font-size: 3.5rem;
+  padding: 10px;
+  margin: 20px;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+.bike_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bike_content > .bike_image {
+  height: 700px;
+  width: 800px;
+  margin: 30px;
+  padding: 10px;
+}
+.bike_image > img {
+  height: 100%;
+  width: 100%;
+}
+.content_box > p {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  width: 800px;
+  text-align: justify;
+  font-size: 1.5rem;
+  margin: 20px 20px 30px 0;
+  color: #000;
+}
+
+.bike_list {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.bike_list > img {
+  height: 30px;
+  width: 30px;
+}
+.list_item {
+  display: flex;
+  justify-content: flex-start;
+}
+.list_link {
+  color: black;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+.record {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.one > h2 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+.one > p {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.box_1 {
+  /* height: 50vh;
+  width: 100%; */
+  padding: 20px;
+}
+
+.modifying {
+  display: flex;
+  flex-direction: row;
+}
+.childimg_1 {
+  height: 50vh;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.childimg_1 > img {
+  height: 400px;
+  width: 650px;
+}
+
+.right_content1 {
+  width: 50%;
+  height: 50vh;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.right_content1 > h1 {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.right_content1 > p {
+  font-size: 1.5rem;
+  margin: 30px;
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 0.5px;
+  text-align: justify;
+}
+
+.modify_item {
+  text-align: center;
+  margin: 10px;
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.box_2 {
+  height: 50vh;
+  width: 100%;
+}
+.maintance {
+  display: flex;
+  flex-direction: row;
+}
+.childimg_2 {
+  height: 50vh;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.childimg_2 > img {
+  height: 400px;
+  width: 650px;
+}
+.right_content2 {
+  height: 50vh;
+  width: 50%;
+}
+.right_content2 > h1 {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 30px;
+  font-size: 2.9rem;
+}
+.right_content2 > p {
+  font-size: 1.5rem;
+  margin: 30px;
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 0.5px;
+  text-align: justify;
+}
+.maintance_item {
+  text-align: center;
+  margin: 10px;
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.box_3 {
+  height: 50vh;
+  width: 100%;
+}
+.spare {
+  display: flex;
+  flex-direction: row;
+}
+.childimg_3 {
+  height: 50vh;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.childimg_3 > img {
+  height: 400px;
+  width: 650px;
+}
+.right_content3 {
+  height: 50vh;
+  width: 50%;
+}
+.right_content3 > h1 {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 30px;
+  font-size: 2.9rem;
+}
+.right_content3 > p {
+  font-size: 1.5rem;
+  margin: 30px;
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 0.5px;
+  text-align: justify;
+}
+.spare_item {
+  text-align: center;
+  margin: 10px;
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.box_4 {
+  height: 50vh;
+  width: 100%;
+}
+.custom {
+  display: flex;
+  flex-direction: row;
+}
+.childimg_4 {
+  height: 50vh;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.childimg_4 > img {
+  height: 400px;
+  width: 650px;
+}
+.right_content4 {
+  height: 50vh;
+  width: 50%;
+}
+.right_content4 > h1 {
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 600;
+  font-style: normal;
+  margin: 30px;
+  font-size: 2.9rem;
+}
+.right_content4 > p {
+  font-size: 1.5rem;
+  margin: 30px;
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  word-spacing: 0.5px;
+  text-align: justify;
+}
+.custom_item {
+  text-align: center;
+  margin: 10px;
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.logos {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  height: 150px;
+  width: 200px;
+}
+
+.logomulti {
+  height: 150px;
+  width: 300px;
+}
+
+.horizontal-line {
+  border-top: 2px solid #000;
+  width: 50%;
+  margin: 20px auto;
+}
+.gallery > h1 {
+  font-size: 3.5rem;
+  padding: 10px;
+  margin: 20px;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+.gallery > h2 {
+  font-family: "East Sea Dokdo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+}
+.bikes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image1 > img {
+  height: 600px;
+  width: 500px;
+}
+.gallery2 > h2 {
+  font-family: "East Sea Dokdo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+}
+.bikes2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.image2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.image2 > img {
+  height: 500px;
+  width: 650px;
+}
+.model > p {
+  font-family: "Hanalei Fill", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  word-spacing: 0.6px;
+}
+
+.varsion > p {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.ours > h1 {
+  font-size: 3.5rem;
+  padding: 10px;
+  margin: 20px;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+.owner_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.owner_photo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.owner_photo > img {
+  height: 550px;
+  width: 600px;
+}
+.owner_details > h1 {
+  font-family: "Viga", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+.owner_details > h4 {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.1rem;
+  width: 550px;
+  text-align: center;
+}
+.owner_details > p {
+  margin: 30px;
+  width: 600px;
+  font-size: 1.2rem;
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
+  width: 800px;
+}
+
+.signature > img {
+  height: 150px;
+  width: 400px;
+}
+.team_head {
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.team_head > h5 {
+  font-size: 1rem;
+  color: #868383;
+  font-family: "Artifika", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.team_head > h1 {
+  font-size: 2rem;
+  font-family: "Viga", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.member1 > h1,
+.member2 > h1,
+.member3 > h1,
+.member4 > h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.member1 > p,
+.member2 > p,
+.member3 > p,
+.member4 > p {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #868383;
+
+  font-size: 0.7rem;
+}
+
+.contact > h1 {
+  font-size: 3.5rem;
+  padding: 10px;
+  margin: 20px;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  display: flex;
+  flex-direction: row;
+}
+
+.map > iframe {
+  height: 400px;
+  width: 750px;
+}
+.address1 {
+  margin: 35px;
+}
+.address1 > h2 {
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+.address_item > img {
+  height: 30px;
+  width: 30px;
+}
+.address_item {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.address_link {
+  color: #313030;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+}
+
+.message > h1 {
+  padding: 40px;
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-size: 1.9rem;
+}
+.massage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msgbar {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.msgbar > .name,
+.mail {
+  width: 600px;
+  margin: 10px;
+  height: 30px;
+}
+.msgbar > .msg {
+  height: 100px;
+  width: 600px;
+  margin: 10px;
+}
+
+.msgbar > button {
+  margin: 10px;
+  height: 35px;
+  width: 250px;
+  align-items: center;
+  font-size: 0.9rem;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.msgbar > button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+.background {
+  height: 50vh;
+  width: 100%;
+  background-image: url("../images/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btm_contact {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btm_contact > h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Bree Serif", serif;
+  font-style: normal;
+  font-weight: 900;
+  word-spacing: 0.5px;
+  color: #ffffff;
+  text-shadow: #f0f0f0 0px 0px 87px;
+}
+.btm_contact > button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border: #fff solid 2px;
+  color: #fff;
+  background-color: black;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.btm_contact > button:hover {
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.bottom {
+  height: 50vh;
+  width: 100%;
+  background-color: #bebebe;
+}
+
+.buttom_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* width: 70% */
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.content1 > p {
+  width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.buttom_head > h1 {
+  color: rgb(10, 8, 8);
+  padding: 10px 20px 2px 10px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.buttom_head {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttom_head > img {
+  height: 60px;
+  width: 60px;
+}
+.social > img {
+  margin: 3px;
+  height: 35px;
+  width: 35px;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.content2 > h2 {
+  font-size: 1.8rem;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.buttomitem {
+  list-style: none;
+  padding: 8px;
+}
+.content3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.content3 > h2 {
+  font-size: 1.8rem;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.buttomitem2 {
+  list-style: none;
+  padding: 8px;
+}
+
+.content4 > h2 {
+  padding: 20px;
+  font-size: 1.8rem;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.content4 > input {
+  width: 300px;
+  height: 40px;
+  margin-left: 40px;
+}
+.content4 > button {
+  width: 100px;
+  height: 40px;
+}
+@media all and (max-width: 438px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    background-size: 100%;
+  }
+
+  .heading > h1 {
+    font-size: 4.5rem;
+    margin-left: 20px;
+  }
+  .icon > img {
+    height: 80px;
+    width: 80px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav_item {
+    padding: 10px;
+    margin: 10px;
+  }
+  .nav_link {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+  }
+
+  .btn > button {
+    font-size: 2rem;
+    height: 60px;
+    width: 200px;
+  }
+
+  .bike_top > p {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .bike_top > h1 {
+    font-weight: 300px;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .click_btn > button {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    height: 70px;
+    width: 250px;
+    word-spacing: 2px;
+  }
+  .service {
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+    background-color: white;
+  }
+  .content > h1 {
+    font-size: 3.5rem;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    font-weight: 900;
+    text-shadow: #ffffff 0px 0px 87px;
+    text-decoration: underline;
+  }
+
+  .bike_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content_box > p {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .bike_content > .bike_image {
+    height: 700px;
+    width: 800px;
+  }
+  .list_item {
+    padding: 15px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+  }
+  .record {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .one {
+    margin: 40px;
+    padding: 20px;
+  }
+  .box_1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+  }
+  .modifying {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .childimg_1 {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .childimg_1 > img {
+    align-items: center;
+    width: 850px;
+    height: 550px;
+  }
+  .right_content1 {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+  }
+  .right_content1 > h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .right_content1 > p {
+    font-size: 2.5rem;
+  }
+  .modify_item {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .box_2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+  }
+  .maintance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .childimg_2 {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .childimg_2 > img {
+    align-items: center;
+    width: 850px;
+    height: 550px;
+  }
+  .right_content2 {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+  }
+  .right_content2 > h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .right_content2 > p {
+    font-size: 2.2rem;
+  }
+  .maintance_item {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .box_3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+  }
+  .spare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .childimg_3 {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .childimg_3 > img {
+    align-items: center;
+    width: 850px;
+    height: 550px;
+  }
+  .right_content3 {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+  }
+  .right_content3 > h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .right_content3 > p {
+    font-size: 2.2rem;
+  }
+  .spare_item {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .box_4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+  }
+  .custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .childimg_4 {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .childimg_4 > img {
+    align-items: center;
+    width: 850px;
+    height: 550px;
+  }
+  .right_content4 {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+  }
+  .right_content4 > h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .right_content4 > p {
+    font-size: 2.2rem;
+  }
+  .custom_item {
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+  }
+
+  .bikes {
+    display: flex;
+    flex-direction: row;
+  }
+  .image1 > img {
+    object-fit: cover;
+    height: 500px;
+    width: 300px;
+  }
+  .image2 > img {
+    height: 400px;
+    width: 400px;
+  }
+  .model > p {
+    font-size: 2.5rem;
+  }
+  .varsion > p {
+    font-size: 1.6rem;
+  }
+
+  .ours > h1 {
+    text-align: center;
+  }
+
+  .owner_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .owner_details > h1 {
+    font-family: "Viga", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .owner_details > h4 {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .owner_details > p {
+    margin: 30px;
+    width: 90%;
+    font-size: 1.5rem;
+    font-family: "Overlock SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .signature {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .signature > img {
+    height: 150px;
+    width: 400px;
+  }
+
+  .team_head {
+    padding: 50px;
+    margin-left: 50px;
+  }
+
+  .team_head > h5 {
+    font-size: 1.5rem;
+    color: #868383;
+    font-family: "Artifika", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .team_head > h1 {
+    font-size: 2.5rem;
+    font-family: "Viga", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .member1,
+  .member2,
+  .member3,
+  .member4 {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .member1 > img,
+  .member2 > img,
+  .member3 > img,
+  .member4 > img {
+    height: 550px;
+    width: 600px;
+  }
+
+  .member1 > h1,
+  .member2 > h1,
+  .member3 > h1,
+  .member4 > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .member1 > p,
+  .member2 > p,
+  .member3 > p,
+  .member4 > p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #868383;
+    font-size: 1.9rem;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .map {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map > iframe {
+    height: 400px;
+    width: 750px;
+  }
+  .address1 {
+    margin: 35px;
+  }
+  .address1 > h2 {
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  .address_item > img {
+    height: 30px;
+    width: 30px;
+  }
+  .address_item {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .address_link {
+    color: #313030;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.7rem;
+  }
+  .massage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .msgbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #555454;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .msgbar > .name,
+  .mail {
+    width: 600px;
+    margin: 10px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+  .msgbar > .msg {
+    height: 180px;
+    width: 600px;
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+
+  .msgbar > button {
+    margin: 10px;
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .msgbar > button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+  }
+  .btm_contact > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-style: normal;
+    font-weight: 900;
+    word-spacing: 0.5px;
+    color: #ffffff;
+    text-shadow: #f0f0f0 0px 0px 87px;
+  }
+  .btm_contact > button {
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border: #fff solid 2px;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-family: "Permanent Marker", cursive;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    word-spacing: 0.7px;
+  }
+
+  .btm_contact > button:hover {
+    background-color: #fff;
+    color: #83c519;
+    cursor: pointer;
+  }
+  .buttom_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .bike_top > h1 {
+    font-size: 1.9rem;
+  }
+
+  .bike_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .content_box > p {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .bike_content > .bike_image {
+    height: 700px;
+    width: 900px;
+  }
+  .list_item {
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+
+  .record {
+    width: 100%;
+  }
+}
